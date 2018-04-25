@@ -15,7 +15,7 @@ test('Reverses a LinkedList iteratively', () => {
 	let initLl = new LinkedList({ array });
 	let solution = reverseI(initLl);
 	let arrSolution = arrFrom({ ll: solution });
-	expect(arrSolution).toEqual(expect.arrayContaining(array.reverse()));
+	expect(arrSolution).toEqual(array.reverse());
 });
 
 test('Reverses a LinkedList recursively', () => {
@@ -23,5 +23,5 @@ test('Reverses a LinkedList recursively', () => {
 	let initLl = new LinkedList({ array });
 	let solution = reverseR(initLl.head);
 	let arrSolution = arrFrom({ headNode: solution });
-	expect(arrSolution).toEqual(expect.arrayContaining(array.reverse()));
+	expect(arrSolution).toEqual(array.reverse());
 });
