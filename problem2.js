@@ -44,6 +44,16 @@ class LinkedList {
 // Check if linked list is sorted (Iterative and Recursive)
 // Given a Linked List, your task is to check whether the Linked List is sorted in descending or ascending order or not?
 
+// input: 1 -> 2 -> 3 -> 4
+// output: true
+
+// input: 4 -> 3 -> 2 -> 1
+// output: true
+
+// input: 4 -> 3 -> 3 -> 4
+// output: false
+
+
 function isSortedR(linkedList) {
 }
 
